@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Polygons</title>
+    <style>
+        #controls {
+            position: absolute;
+            left: 25px;
+            top: 25px;
+        }
+        #canvas
+        {
+            position: absolute;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <canvas id='canvas' width='900' height='600'>
+        canvas not support
+    </canvas>
+    <div id='controls'>
+        Stroke color:<select id='strokeStyleSelect'>
+            <option value='red'>red</option>
+            <option value='green'>green</option>
+            <option value='blue'>blue</option>
+            <option value='orange'>orange</option>
+            <option value='cornflowerblue' selected>cornflowerblue</option>
+            <option value='goldenrod'>goldenrod</option>
+            <option value='navy'>navy</option>
+            <option value='purple'>purple</option>
+        </select>
+        Fill color: <select id='fillStyleSelect'>
+            <option value='red'>red</option>
+            <option value='green'>green</option>
+            <option value='blue'>blue</option>
+            <option value='orange'>orange</option>
+            <option value='cornflowerblue' selected>cornflowerblue</option>
+            <option value='goldenrod'>goldenrod</option>
+            <option value='navy'>navy</option>
+            <option value='purple'>purple</option>
+        </select>
+        Sides: <select id='sidesSelect'>
+            <option value='360'>0</option>
+            <option value='4'>4</option>
+            <option value='6'>6</option>
+            <option value='8'>8</option>
+            <option value='12'>12</option>
+        </select>
+        Start angle: : <select id='startAngleSelect'>
+            <option value='0'>0</option>
+            <option value='30'>30</option>
+            <option value='45'>45</option>
+            <option value='60'>60</option>
+            <option value='90'>90</option>
+        </select>
+         Guidewires:<input id='guidewireCheckbox' type='checkbox' checked/>
+        Fill <input id='fillCheckbox' type="checkbox" />
+        <input id='eraseAllButton' type="button" value='Erase all' />
+        Edit <input id='editCheckbox' type="checkbox" />
+        
+        <script src='~/Scripts/Apps/polygon.js'></script>
+        <script src='~/Scripts/Apps/polygons.js'></script>
+    </div>
+</body>
+</html>
