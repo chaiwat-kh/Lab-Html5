@@ -104,6 +104,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\themes\base\images\fence.JPG" />
     <Content Include="Content\themes\base\images\nike.JPG" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
@@ -142,10 +143,16 @@
     <Content Include="Scripts\Apps\dial.js" />
     <Content Include="Scripts\Apps\donut.js" />
     <Content Include="Scripts\Apps\draggingbeziercurve.js" />
+    <Content Include="Scripts\Apps\drawingcirculartext.js" />
+    <Content Include="Scripts\Apps\drawingimage.js" />
+    <Content Include="Scripts\Apps\erasingwithclipping.js" />
     <Content Include="Scripts\Apps\example.js" />
     <Content Include="Scripts\Apps\extendcanvasrender2d.js" />
+    <Content Include="Scripts\Apps\fillcolorgradientspatterns.js" />
     <Content Include="Scripts\Apps\gradients.js" />
     <Content Include="Scripts\Apps\insertShadows.js" />
+    <Content Include="Scripts\Apps\labelstoaxes.js" />
+    <Content Include="Scripts\Apps\offscreen.js" />
     <Content Include="Scripts\Apps\patterns.js" />
     <Content Include="Scripts\Apps\polygon.js" />
     <Content Include="Scripts\Apps\polygons.js" />
@@ -154,9 +161,14 @@
     <Content Include="Scripts\Apps\rubberbanding.js" />
     <Content Include="Scripts\Apps\rubberbandline.js" />
     <Content Include="Scripts\Apps\rubberbandlines.js" />
+    <Content Include="Scripts\Apps\scalingcenteringimage.js" />
     <Content Include="Scripts\Apps\simpleRec.js" />
+    <Content Include="Scripts\Apps\simpletextcursor.js" />
     <Content Include="Scripts\Apps\spritesheet.js" />
     <Content Include="Scripts\Apps\strokeandfill.js" />
+    <Content Include="Scripts\Apps\telescoping.js" />
+    <Content Include="Scripts\Apps\textcursors.js" />
+    <Content Include="Scripts\Apps\watermarks.js" />
     <Content Include="Scripts\jquery-1.6.2-vsdoc.js" />
     <Content Include="Scripts\jquery-1.6.2.js" />
     <Content Include="Scripts\jquery-1.6.2.min.js" />
@@ -260,6 +272,36 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\Compositing.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\ErasingWithClipping.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\Telescoping.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\FillColorGradientsPatterns.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\LabelsToAxes.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\DrawingCircularText.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\TextCursor.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\DrawingImage.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\ScalingCenteringImage.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\Watermarks.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\Offscreen.cshtml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

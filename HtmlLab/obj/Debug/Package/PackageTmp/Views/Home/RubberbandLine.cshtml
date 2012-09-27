@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html >
+<html>
+<head>
+    <title>Rubberband lines</title>
+    <style>
+        #canvas
+        {
+            position: absolute;
+            left: 0px;
+            top: 20px;
+            margin: 20px;
+            background: #ffffff;
+            border: thin inset rgba(100,150,230,0.5);
+            cursor: default;
+        }
+        #controls {
+            position: absolute;
+            left: 25px;
+            top: 25px;
+        }
+    </style>
+</head>
+<body>
+    <canvas id='canvas' height='500' width='700'>
+        Canvas not supported
+    </canvas>
+
+    <div id='control'>
+        Stroke color:<select id='strokeStyleSelect'>
+            <option value='red'>red</option>
+            <option value='green'>green</option>
+            <option value='goldenrod'>goldenrod</option>
+            <option value='navy'>navy</option>
+        </select>
+        Object<select id='objectSelect'>
+            <option value='draw'>draw</option> 
+            <option value='erase'>erase</option> 
+        </select>
+    </div>
+
+    <script src='~/Scripts/Apps/rubberbandline.js'></script>
+</body>
+</html>

@@ -126,5 +126,55 @@ namespace HtmlLab.Controllers
             return View();
         }
 
+        public ActionResult ErasingWithClipping()
+        {
+            return View();
+        }
+
+        public ActionResult Telescoping()
+        {
+            return View();
+        }
+
+        public ActionResult FillColorGradientsPatterns()
+        {
+            return View();
+        }
+
+        public ActionResult LabelsToAxes()
+        {
+            return View();
+        }
+
+        public ActionResult DrawingCircularText()
+        {
+            return View();
+        }
+
+        public ActionResult TextCursor()
+        {
+            return View();
+        }
+
+        public ActionResult DrawingImage()
+        {
+            return View();
+        }
+
+        public ActionResult ScalingCenteringImage()
+        {
+            return View();
+        }
+
+        public ActionResult Watermarks()
+        {
+            return View();
+        }
+
+        public ActionResult Offscreen()
+        {
+            return View();
+        }
+
     }
 }

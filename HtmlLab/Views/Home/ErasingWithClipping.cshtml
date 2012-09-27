@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html >
+<html>
+<head>
+    <title>Erasing with the clipping</title>
+    <style>
+        #controls {
+            position: absolute;
+            left: 25px;
+            top: 25px;
+        }
+        #canvas
+        {
+            position: absolute;            
+        }
+    </style>
+</head>
+<body>
+    <canvas id='canvas' width='900' height='450'>
+        Canvas not supported
+    </canvas>
+    <div id='controls'>
+    Stroke color: <select id='strokeStyleSelect'>
+        <option value='red'>red</option>
+        <option value='green'>green</option>
+        <option value='blue'>blue</option>
+        <option value='orange'>orange</option>
+        <option value='cornflowerblue' selected>cornflowerblue</option>
+        <option value='goldenrod'>goldenrod</option>
+        <option value='navy'>navy</option>
+        <option value='purple'>purple</option>
+    </select>
+    Fill color: <select id='fillStyleSelect'>
+        <option value='red'>red</option>
+        <option value='green'>green</option>
+        <option value='blue'>blue</option>
+        <option value='orange'>orange</option>
+        <option value='cornflowerblue' selected>cornflowerblue</option>
+        <option value='goldenrod'>goldenrod</option>
+        <option value='navy'>navy</option>
+        <option value='purple'>purple</option>
+    </select>
+    Draw <input  id='drawRadio' type='radio' name='optionType' checked/>
+    Erase <input  id='eraserRadio' type='radio' name='optionType' />
+    Erase: <select id='eraserShapeSelect'>
+        <option value='square' selected>Square</option>
+        <option value='circle'>Circle</option>        
+    </select>
+    Erase width: <select id='eraserWidthSelect'>
+        <option value='100' selected>100</option>
+        <option value='150'>150</option>
+    </select>
+    </div>
+    
+    <script src='~/Scripts/Apps/erasingwithclipping.js'></script>
+</body>
+</html>
